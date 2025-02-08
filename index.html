@@ -8,8 +8,8 @@
     <title>Tailwind_Homework-1</title>
 </head>
 <body>
-    <section>
-        <navbar class="flex justify-between  items-center">
+    <section class="@max-md:flex-col">
+        <navbar class="flex justify-between  items-center ">
             <div class="left-part">
                 <div class=" flex items-center justify-start gap-3 pt-2  m-3">
                     <span class=""><svg  fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
@@ -45,8 +45,8 @@
                 <button class=" cursor-pointer ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">No</button>
               </div>
         </div>
-        <div>
-            <img src="./1.avif" alt="" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div class=" min-md:flex flex-col items-center">
+            <img src="./1.avif" alt="" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 max-lg:max-w-full min-md:max-w-fit">
         </div>
     </main>
 </body>
